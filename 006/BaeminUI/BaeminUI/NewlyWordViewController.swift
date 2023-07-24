@@ -39,7 +39,7 @@ class NewlyWordViewController: UIViewController {
     func pickRandomNewlyWord() {
         currentButtonListWord.removeAll()
         while currentButtonListWord.count < 4 {
-            let randomWord = newlyWordDict.randomElement()!.key
+            guard let randomWord = newlyWordDict.randomElement()?.key else { return }
             if !currentButtonListWord.contains(randomWord) {
                 currentButtonListWord.append(randomWord)
             }
@@ -75,7 +75,8 @@ class NewlyWordViewController: UIViewController {
     }
     
     @IBAction func tapNewlyWordButton(_ sender: UIButton) {
-        displayNewWordMean(newlyWord: sender.titleLabel!.text!)
+        guard let text  = sender.titleLabel?.text else { return }
+        displayNewWordMean(newlyWord: text)
         replaceRandomNewlyWordListButton()
         endEditing(sender)
     }
@@ -89,4 +90,5 @@ class NewlyWordViewController: UIViewController {
         }
         newlyWordExplanationLabel.text = newlyWordMean
     }
+    
 }
