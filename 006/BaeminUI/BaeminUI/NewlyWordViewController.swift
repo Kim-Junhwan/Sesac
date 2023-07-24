@@ -31,8 +31,8 @@ class NewlyWordViewController: UIViewController {
     }
     
     func bindRandomNewlyWordAtButtonList() {
-        for num in 0..<4 {
-            newlyWordButtonList[num].setTitle(currentButtonListWord[num], for: .normal)
+        newlyWordButtonList.forEach { button in
+            button.setTitle(currentButtonListWord[button.tag], for: .normal)
         }
     }
     
