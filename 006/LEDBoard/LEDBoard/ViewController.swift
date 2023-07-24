@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var sendButton: UIButton!
     @IBOutlet weak var changeTextColorButton: UIButton!
     @IBOutlet weak var textLabel: UILabel!
+    var timer: Timer?
+    
+    let fontList: [UIFont] = [UIFont.boldSystemFont(ofSize: .zero), UIFont.systemFont(ofSize: .zero), UIFont.monospacedSystemFont(ofSize: .zero, weight: .heavy), UIFont.monospacedDigitSystemFont(ofSize: .zero, weight: .ultraLight)]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,11 +57,10 @@ class ViewController: UIViewController {
         closeKeyboard(nil)
     }
 
-    @IBAction func changeRandomColor(_ sender: UIButton) {
+    @IBAction func changeRandomColor(_ sender: UIButton?) {
         let randomColor = getRandomColor()
         changeTextColorButton.tintColor = randomColor
         textLabel.textColor = randomColor
-        
     }
     
     @IBAction func tapReturnKey(_ sender: UITextField) {
@@ -72,6 +74,19 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
+    @IBAction func toggleShinyEvent(_ sender: UISwitch) {
+        if sender.isOn {
+            timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { [weak self] _ in
+                self?.changeRandomColor(nil)
+                let randomFont = self?.fontList[Int.random(in: 0...3)].withSize(.random(in: 10...70))
+                self?.textLabel.font = randomFont
+            }
+        } else {
+            timer?.invalidate()
+            timer = nil
+        }
+        
+    }
     
 }
 
