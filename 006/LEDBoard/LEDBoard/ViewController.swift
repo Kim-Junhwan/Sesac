@@ -46,6 +46,13 @@ class ViewController: UIViewController {
         button.layer.borderColor = UIColor.black.cgColor
         button.layer.borderWidth = 1.0
     }
+    
+    @IBAction func bindLabelToTextField(sender: Any?) {
+        guard let text = messageTextField.text else { return }
+        messageTextField.text = ""
+        textLabel.text = text
+        closeKeyboard(nil)
+    }
 
     @IBAction func changeRandomColor(_ sender: UIButton) {
         let randomColor = getRandomColor()
@@ -53,6 +60,15 @@ class ViewController: UIViewController {
         textLabel.textColor = randomColor
         
     }
+    
+    @IBAction func tapReturnKey(_ sender: UITextField) {
+        bindLabelToTextField(sender: nil)
+    }
+    
+    func closeKeyboard(_ sender: Any?) {
+        view.endEditing(true)
+    }
+    
     
 }
 
