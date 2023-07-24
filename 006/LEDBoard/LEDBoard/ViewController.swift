@@ -13,10 +13,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var messageTextField: UITextField!
     @IBOutlet weak var sendButton: UIButton!
     @IBOutlet weak var changeTextColorButton: UIButton!
+    @IBOutlet weak var textLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         layout()
+        changeRandomColor(changeTextColorButton)
+    }
+    
+    func getRandomColor() -> UIColor {
+        return UIColor(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1), alpha: 1.0)
     }
     
     func layout() {
@@ -41,6 +47,12 @@ class ViewController: UIViewController {
         button.layer.borderWidth = 1.0
     }
 
-
+    @IBAction func changeRandomColor(_ sender: UIButton) {
+        let randomColor = getRandomColor()
+        changeTextColorButton.tintColor = randomColor
+        textLabel.textColor = randomColor
+        
+    }
+    
 }
 

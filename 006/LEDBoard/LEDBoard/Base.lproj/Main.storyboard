@@ -41,6 +41,9 @@
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Aa"/>
+                                                <connections>
+                                                    <action selector="changeRandomColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="npC-gB-Dkt"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -73,6 +76,7 @@
                         <outlet property="changeTextColorButton" destination="YOj-dE-bO8" id="KYf-2h-EYV"/>
                         <outlet property="messageTextField" destination="gm6-io-RSM" id="U4l-WT-I2Q"/>
                         <outlet property="sendButton" destination="Jpu-vr-eTp" id="fnK-1G-x9Q"/>
+                        <outlet property="textLabel" destination="dw0-43-bPc" id="olq-8N-6lu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
