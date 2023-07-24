@@ -64,6 +64,9 @@ class ViewController: UIViewController {
     @IBAction func tapReturnKey(_ sender: UITextField) {
         bindLabelToTextField(sender: nil)
     }
+    @IBAction func toggleActionView(_ sender: UITapGestureRecognizer) {
+        actionStackView.isHidden.toggle()
+    }
     
     func closeKeyboard(_ sender: Any?) {
         view.endEditing(true)
