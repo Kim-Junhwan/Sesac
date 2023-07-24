@@ -69,7 +69,9 @@ class NewlyWordViewController: UIViewController {
     }
     
     @IBAction func searchNewlyWord(_ sender: UIButton) {
-        guard let searchTextWord = searchTextField.text else { return }
+        guard let searchTextWord = searchTextField.text, searchTextWord != "", searchTextWord.count < 1 else { showWarningAlert()
+            return
+        }
         searchTextField.text = ""
         displayNewWordMean(newlyWord: searchTextWord)
     }
@@ -91,4 +93,10 @@ class NewlyWordViewController: UIViewController {
         newlyWordExplanationLabel.text = newlyWordMean
     }
     
+    func showWarningAlert() {
+        let alerController = UIAlertController(title: "주의!", message: "두 글자 이상 입력해주십시오", preferredStyle: .alert)
+        let ok = UIAlertAction(title: "확인", style: .default)
+        alerController.addAction(ok)
+        present(alerController, animated: true)
+    }
 }
