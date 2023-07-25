@@ -14,6 +14,7 @@
 		C797683C2A6FE8BA0040BF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C797683B2A6FE8BA0040BF8C /* Assets.xcassets */; };
 		C797683F2A6FE8BA0040BF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C797683D2A6FE8BA0040BF8C /* LaunchScreen.storyboard */; };
 		C79768472A7004710040BF8C /* Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79768462A7004710040BF8C /* Emotion.swift */; };
+		C79768492A7005B20040BF8C /* EmotionScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79768482A7005B20040BF8C /* EmotionScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C797683E2A6FE8BA0040BF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C79768402A6FE8BA0040BF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C79768462A7004710040BF8C /* Emotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotion.swift; sourceTree = "<group>"; };
+		C79768482A7005B20040BF8C /* EmotionScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C79768362A6FE8B90040BF8C /* ViewController.swift */,
 				C79768462A7004710040BF8C /* Emotion.swift */,
 				C79768382A6FE8B90040BF8C /* Main.storyboard */,
+				C79768482A7005B20040BF8C /* EmotionScoreViewController.swift */,
 				C797683B2A6FE8BA0040BF8C /* Assets.xcassets */,
 				C797683D2A6FE8BA0040BF8C /* LaunchScreen.storyboard */,
 				C79768402A6FE8BA0040BF8C /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79768372A6FE8B90040BF8C /* ViewController.swift in Sources */,
+				C79768492A7005B20040BF8C /* EmotionScoreViewController.swift in Sources */,
 				C79768332A6FE8B90040BF8C /* AppDelegate.swift in Sources */,
 				C79768352A6FE8B90040BF8C /* SceneDelegate.swift in Sources */,
 				C79768472A7004710040BF8C /* Emotion.swift in Sources */,

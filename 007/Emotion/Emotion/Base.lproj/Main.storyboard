@@ -180,7 +180,7 @@
         <scene sceneID="51X-Tl-ZEF">
             <objects>
                 <navigationController id="8nc-Yc-OfD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="gjy-dx-9wl"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="pencil" catalog="system" id="gjy-dx-9wl"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RYX-fJ-rSG">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -196,7 +196,7 @@
         <!--OH MY MOOD-->
         <scene sceneID="beI-dP-tWE">
             <objects>
-                <viewController id="8D8-ge-FW6" sceneMemberID="viewController">
+                <viewController id="8D8-ge-FW6" customClass="EmotionScoreViewController" customModule="Emotion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqq-4b-TXp">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -368,6 +368,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="OH MY MOOD" id="uzY-Ub-rul"/>
+                    <connections>
+                        <outletCollection property="emotionScoreViewList" destination="NhR-m1-1yG" collectionClass="NSMutableArray" id="YfD-uR-5Dz"/>
+                        <outletCollection property="emotionScoreViewList" destination="iBF-6m-Wc9" collectionClass="NSMutableArray" id="WgF-98-7hx"/>
+                        <outletCollection property="emotionScoreViewList" destination="NBD-Hu-Goz" collectionClass="NSMutableArray" id="ITS-Ih-QfM"/>
+                        <outletCollection property="emotionScoreViewList" destination="xmg-LB-dMn" collectionClass="NSMutableArray" id="bv2-g0-AVt"/>
+                        <outletCollection property="emotionScoreViewList" destination="iwi-Ma-KAO" collectionClass="NSMutableArray" id="xmb-xC-3uW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="caz-bb-c3v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -377,7 +384,7 @@
         <scene sceneID="DfW-jS-18H">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tXY-QH-VL7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="rks-2u-4kM"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="chart.line.uptrend.xyaxis" catalog="system" id="rks-2u-4kM"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="E3E-Eh-ZFT">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -400,6 +407,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GAc-8x-0rv">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="tXY-QH-VL7" kind="relationship" relationship="viewControllers" id="Pa0-p1-ilt"/>
@@ -412,11 +420,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chart.line.uptrend.xyaxis" catalog="system" width="128" height="102"/>
         <image name="emoji1" width="53" height="51"/>
         <image name="emoji2" width="52" height="48"/>
         <image name="emoji3" width="50" height="38"/>
         <image name="emoji4" width="52" height="48"/>
         <image name="emoji5" width="54" height="50"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
         <namedColor name="BrightYellow">
             <color red="0.99215686274509807" green="0.79607843137254897" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
