@@ -37,7 +37,7 @@ class TestTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        55.0
+        return 44.0
     }
     
 }

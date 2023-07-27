@@ -14,6 +14,7 @@
 		C71A0A392A720024000E5273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71A0A382A720024000E5273 /* Assets.xcassets */; };
 		C71A0A3C2A720024000E5273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71A0A3A2A720024000E5273 /* LaunchScreen.storyboard */; };
 		C71A0A442A720FBD000E5273 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71A0A432A720FBD000E5273 /* TestTableViewController.swift */; };
+		C71A0A462A728D50000E5273 /* OptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71A0A452A728D50000E5273 /* OptionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C71A0A3B2A720024000E5273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C71A0A3D2A720024000E5273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C71A0A432A720FBD000E5273 /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		C71A0A452A728D50000E5273 /* OptionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		C71A0A2E2A720023000E5273 /* TableViewControllerTest */ = {
 			isa = PBXGroup;
 			children = (
+				C71A0A452A728D50000E5273 /* OptionTableViewController.swift */,
 				C71A0A432A720FBD000E5273 /* TestTableViewController.swift */,
 				C71A0A2F2A720023000E5273 /* AppDelegate.swift */,
 				C71A0A312A720023000E5273 /* SceneDelegate.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71A0A462A728D50000E5273 /* OptionTableViewController.swift in Sources */,
 				C71A0A342A720023000E5273 /* ViewController.swift in Sources */,
 				C71A0A302A720023000E5273 /* AppDelegate.swift in Sources */,
 				C71A0A322A720023000E5273 /* SceneDelegate.swift in Sources */,
@@ -299,6 +303,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
