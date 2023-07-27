@@ -323,7 +323,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ely-ic-Ma6">
                                                 <rect key="frame" x="312.33333333333331" y="30.999999999999972" width="30.666666666666686" height="24"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgB-pH-L5R">
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgB-pH-L5R">
                                                         <rect key="frame" x="0.0" y="0.0" width="13.333333333333334" height="24"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <nil key="textColor"/>
@@ -353,7 +353,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vqb-PP-BCf">
                                                 <rect key="frame" x="312.33333333333331" y="31.333333333333371" width="30.666666666666686" height="24"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UO4-Q0-hEe">
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UO4-Q0-hEe">
                                                         <rect key="frame" x="0.0" y="0.0" width="13.333333333333334" height="24"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <nil key="textColor"/>
@@ -383,7 +383,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="utq-Oa-2fJ">
                                                 <rect key="frame" x="312.33333333333331" y="31.333333333333314" width="30.666666666666686" height="24"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktM-b7-xy7">
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktM-b7-xy7">
                                                         <rect key="frame" x="0.0" y="0.0" width="13.333333333333334" height="24"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <nil key="textColor"/>
@@ -414,7 +414,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KrI-yg-qsI">
                                                 <rect key="frame" x="312.33333333333331" y="31" width="30.666666666666686" height="24"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xau-8U-YLz">
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xau-8U-YLz">
                                                         <rect key="frame" x="0.0" y="0.0" width="13.333333333333334" height="24"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <nil key="textColor"/>
@@ -451,6 +451,11 @@
                         <outletCollection property="emotionScoreViewList" destination="NBD-Hu-Goz" collectionClass="NSMutableArray" id="ITS-Ih-QfM"/>
                         <outletCollection property="emotionScoreViewList" destination="xmg-LB-dMn" collectionClass="NSMutableArray" id="bv2-g0-AVt"/>
                         <outletCollection property="emotionScoreViewList" destination="iwi-Ma-KAO" collectionClass="NSMutableArray" id="xmb-xC-3uW"/>
+                        <outletCollection property="scoreLabelList" destination="ufG-QO-7Zc" collectionClass="NSMutableArray" id="mFd-Kt-Mga"/>
+                        <outletCollection property="scoreLabelList" destination="EgB-pH-L5R" collectionClass="NSMutableArray" id="iCC-D3-lSw"/>
+                        <outletCollection property="scoreLabelList" destination="UO4-Q0-hEe" collectionClass="NSMutableArray" id="Hun-zF-MR6"/>
+                        <outletCollection property="scoreLabelList" destination="ktM-b7-xy7" collectionClass="NSMutableArray" id="aic-8g-3i2"/>
+                        <outletCollection property="scoreLabelList" destination="xau-8U-YLz" collectionClass="NSMutableArray" id="pCW-eT-5to"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="caz-bb-c3v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

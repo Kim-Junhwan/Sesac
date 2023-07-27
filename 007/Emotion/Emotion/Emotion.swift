@@ -5,6 +5,8 @@
 //  Created by JunHwan Kim on 2023/07/25.
 //
 
+import Foundation
+
 enum Emotion: Int, CaseIterable {
     case veryGood = 0
     case good
@@ -25,5 +27,9 @@ enum Emotion: Int, CaseIterable {
         case .verySad:
             return "verySad"
         }
+    }
+    
+    func getEmotionScore() -> Int {
+        return UserDefaults.standard.integer(forKey: currentCase())
     }
 }

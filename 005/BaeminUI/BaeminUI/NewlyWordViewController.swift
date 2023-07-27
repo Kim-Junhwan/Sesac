@@ -22,6 +22,7 @@ class NewlyWordViewController: UIViewController {
         super.viewDidLoad()
         layout()
         replaceRandomNewlyWordListButton()
+        print(view.subviews)
     }
     
     func replaceRandomNewlyWordListButton() {

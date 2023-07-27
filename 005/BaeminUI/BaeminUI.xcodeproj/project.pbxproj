@@ -14,6 +14,7 @@
 		C72C19192A6A68F7007B3291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72C19172A6A68F7007B3291 /* Main.storyboard */; };
 		C72C191B2A6A68F8007B3291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72C191A2A6A68F8007B3291 /* Assets.xcassets */; };
 		C72C191E2A6A68F8007B3291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72C191C2A6A68F8007B3291 /* LaunchScreen.storyboard */; };
+		C797678A2A6D15910040BF8C /* ScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79767892A6D15910040BF8C /* ScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C72C191A2A6A68F8007B3291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C72C191D2A6A68F8007B3291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C72C191F2A6A68F8007B3291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79767882A6CD7680040BF8C /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C79767892A6D15910040BF8C /* ScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +65,10 @@
 				C72C19132A6A68F7007B3291 /* SceneDelegate.swift */,
 				C72C19152A6A68F7007B3291 /* ViewController.swift */,
 				C72C19172A6A68F7007B3291 /* Main.storyboard */,
+				C79767882A6CD7680040BF8C /* test.playground */,
 				C72C191A2A6A68F8007B3291 /* Assets.xcassets */,
 				C72C191C2A6A68F8007B3291 /* LaunchScreen.storyboard */,
+				C79767892A6D15910040BF8C /* ScreenViewController.swift */,
 				C72C191F2A6A68F8007B3291 /* Info.plist */,
 				C71AC7582A6B995E00D7AAA7 /* NewlyWordViewController.swift */,
 			);
@@ -143,6 +148,7 @@
 			files = (
 				C72C19162A6A68F7007B3291 /* ViewController.swift in Sources */,
 				C72C19122A6A68F7007B3291 /* AppDelegate.swift in Sources */,
+				C797678A2A6D15910040BF8C /* ScreenViewController.swift in Sources */,
 				C71AC7592A6B995E00D7AAA7 /* NewlyWordViewController.swift in Sources */,
 				C72C19142A6A68F7007B3291 /* SceneDelegate.swift in Sources */,
 			);
