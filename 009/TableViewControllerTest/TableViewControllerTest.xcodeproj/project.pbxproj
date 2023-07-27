@@ -15,6 +15,7 @@
 		C71A0A3C2A720024000E5273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71A0A3A2A720024000E5273 /* LaunchScreen.storyboard */; };
 		C71A0A442A720FBD000E5273 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71A0A432A720FBD000E5273 /* TestTableViewController.swift */; };
 		C71A0A462A728D50000E5273 /* OptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71A0A452A728D50000E5273 /* OptionTableViewController.swift */; };
+		C74E225F2A729819009FE993 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74E225E2A729819009FE993 /* ShoppingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C71A0A3D2A720024000E5273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C71A0A432A720FBD000E5273 /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		C71A0A452A728D50000E5273 /* OptionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewController.swift; sourceTree = "<group>"; };
+		C74E225E2A729819009FE993 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				C71A0A312A720023000E5273 /* SceneDelegate.swift */,
 				C71A0A332A720023000E5273 /* ViewController.swift */,
 				C71A0A352A720023000E5273 /* Main.storyboard */,
+				C74E225E2A729819009FE993 /* ShoppingTableViewController.swift */,
 				C71A0A382A720024000E5273 /* Assets.xcassets */,
 				C71A0A3A2A720024000E5273 /* LaunchScreen.storyboard */,
 				C71A0A3D2A720024000E5273 /* Info.plist */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C71A0A462A728D50000E5273 /* OptionTableViewController.swift in Sources */,
+				C74E225F2A729819009FE993 /* ShoppingTableViewController.swift in Sources */,
 				C71A0A342A720023000E5273 /* ViewController.swift in Sources */,
 				C71A0A302A720023000E5273 /* AppDelegate.swift in Sources */,
 				C71A0A322A720023000E5273 /* SceneDelegate.swift in Sources */,
