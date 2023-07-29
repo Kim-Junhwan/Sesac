@@ -8,6 +8,8 @@
 import UIKit
 
 class MovieTableViewCell: UITableViewCell {
+    
+    static let identifier: String = "MovieTableViewCell"
 
     @IBOutlet weak var posterImageView: UIImageView!
     @IBOutlet weak var movieNameLabel: UILabel!
