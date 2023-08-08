@@ -508,7 +508,7 @@
         <scene sceneID="ff0-S3-ovQ">
             <objects>
                 <tableViewController id="X9b-Ia-9qP" customClass="ShoppingTableViewController" customModule="TableViewControllerTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="GSB-mv-Q32">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="GSB-mv-Q32">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -550,25 +550,55 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="shoppingCell" textLabel="d3a-Y1-WBK" rowHeight="51" style="IBUITableViewCellStyleDefault" id="Ndm-8l-KVL">
-                                <rect key="frame" x="0.0" y="114" width="414" height="51"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="shoppingCell" rowHeight="71" id="Ndm-8l-KVL" customClass="ShoppingTableViewCell" customModule="TableViewControllerTest" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="114" width="414" height="71"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ndm-8l-KVL" id="TYF-hM-oqb">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="51"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="71"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d3a-Y1-WBK">
-                                            <rect key="frame" x="20" y="0.0" width="374" height="51"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="buC-04-e8l">
+                                            <rect key="frame" x="20" y="11" width="374" height="49"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hn2-Ou-Br0">
+                                                    <rect key="frame" x="0.0" y="0.0" width="110.5" height="49"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6I-Wh-9JY">
+                                                            <rect key="frame" x="0.0" y="0.0" width="49" height="49"/>
+                                                            <state key="normal" title="Button"/>
+                                                            <buttonConfiguration key="configuration" style="plain" image="checkmark.square" catalog="system"/>
+                                                        </button>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwZ-Qx-D6y">
+                                                            <rect key="frame" x="69" y="0.0" width="41.5" height="49"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KN8-YQ-cEx">
+                                                    <rect key="frame" x="322" y="0.0" width="52" height="49"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
                                     </subviews>
                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="buC-04-e8l" firstAttribute="leading" secondItem="TYF-hM-oqb" secondAttribute="leadingMargin" id="IL3-qz-AKw"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="buC-04-e8l" secondAttribute="bottom" id="egF-ev-jn4"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="buC-04-e8l" secondAttribute="trailing" id="huF-36-WES"/>
+                                        <constraint firstItem="buC-04-e8l" firstAttribute="top" secondItem="TYF-hM-oqb" secondAttribute="topMargin" id="iBD-S2-V9T"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="checkButton" destination="K6I-Wh-9JY" id="PfI-a7-1IT"/>
+                                    <outlet property="shoppingLabel" destination="uwZ-Qx-D6y" id="O77-c1-AxQ"/>
+                                    <outlet property="starButton" destination="KN8-YQ-cEx" id="bO8-sd-vpq"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -625,11 +655,13 @@
     </scenes>
     <resources>
         <image name="bed.double.fill" catalog="system" width="128" height="82"/>
+        <image name="checkmark.square" catalog="system" width="128" height="114"/>
         <image name="iphone" catalog="system" width="112" height="128"/>
         <image name="moon.fill" catalog="system" width="128" height="123"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="rectangle.portrait.and.arrow.right.fill" catalog="system" width="128" height="108"/>
         <image name="square.and.arrow.down.on.square.fill" catalog="system" width="122" height="128"/>
+        <image name="star" catalog="system" width="128" height="116"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

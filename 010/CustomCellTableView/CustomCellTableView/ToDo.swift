@@ -19,8 +19,4 @@ struct ToDoInformation {
         ToDo(main: "쉬기", sub: "23.03.23", like: true, done: false),
         ToDo(main: "게임", sub: "23.02.23", like: false, done: false),
         ToDo(main: "놀기", sub: "23.04.23", like: true, done: true)]
-    
-    var listCount: Int {
-        return list.count
-    }
 }
