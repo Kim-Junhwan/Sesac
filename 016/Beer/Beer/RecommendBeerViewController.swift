@@ -30,7 +30,6 @@ class RecommendBeerViewController: UIViewController {
                 switch response.result {
                 case .success(let value):
                     let json = JSON(value).arrayValue[0]
-                    print(json)
                     self.beerLabel.text = json["name"].stringValue
                     self.beerImage.getImageFromUrl(url: json["image_url"].stringValue)
                     self.beerDiscusstionLabel.text = json["description"].stringValue
