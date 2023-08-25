@@ -164,6 +164,11 @@ class Example2ViewController: UIViewController {
         setTopView()
         setActionButton()
         setUserProfileView()
+        xButton.addTarget(self, action: #selector(dismissView), for: .touchUpInside)
+    }
+    
+    @objc func dismissView() {
+        dismiss(animated: true )
     }
     
     func setBackGround() {

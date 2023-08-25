@@ -15,5 +15,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func tapLocationButton(_ sender: UIButton) {
+        let vc = LocationViewController()
+        present(vc, animated: true)
+    }
 }
 

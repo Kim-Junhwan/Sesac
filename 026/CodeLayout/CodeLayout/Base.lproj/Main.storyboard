@@ -16,35 +16,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1m-UG-87g">
-                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <segue destination="g8N-nc-cTP" kind="show" id="eAg-BB-YJy"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pp5-hs-Srf">
-                                <rect key="frame" x="159" y="521" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <segue destination="WSh-kN-c3Z" kind="presentation" modalPresentationStyle="fullScreen" id="cxV-RG-3wB"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="68" translatesAutoresizingMaskIntoConstraints="NO" id="nrF-Ek-7Wh">
+                                <rect key="frame" x="114.00000000000001" y="204.33333333333334" width="165.33333333333337" height="443.66666666666663"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1m-UG-87g">
+                                        <rect key="frame" x="0.0" y="0.0" width="165.33333333333334" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="사진"/>
+                                        <connections>
+                                            <segue destination="g8N-nc-cTP" kind="show" id="eAg-BB-YJy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pp5-hs-Srf">
+                                        <rect key="frame" x="0.0" y="102.33333333333334" width="165.33333333333334" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="카카오 프로필 페이지"/>
+                                        <connections>
+                                            <segue destination="WSh-kN-c3Z" kind="presentation" modalPresentationStyle="fullScreen" id="cxV-RG-3wB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kin-7V-AFP">
+                                        <rect key="frame" x="0.0" y="204.66666666666666" width="165.33333333333334" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="지도"/>
+                                        <connections>
+                                            <action selector="tapLocationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="voX-S5-SOk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doa-vu-Z7u">
+                                        <rect key="frame" x="0.0" y="307" width="165.33333333333334" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="넷플릭스"/>
+                                        <connections>
+                                            <segue destination="IG8-ov-VF1" kind="presentation" modalPresentationStyle="fullScreen" id="4fV-oz-Znk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIt-Kd-IdB">
+                                        <rect key="frame" x="0.0" y="409.33333333333326" width="165.33333333333334" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="넷플릭스 가입"/>
+                                        <connections>
+                                            <segue destination="0zq-Od-dGQ" kind="presentation" modalPresentationStyle="fullScreen" id="xgU-6a-Til"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="L1m-UG-87g" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6XA-ZE-EEi"/>
-                            <constraint firstItem="L1m-UG-87g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Maq-IF-G5H"/>
+                            <constraint firstItem="nrF-Ek-7Wh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d8F-o4-EDD"/>
+                            <constraint firstItem="nrF-Ek-7Wh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xg7-Cr-EIx"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="55" y="-34"/>
+            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
         </scene>
         <!--Example2 View Controller-->
         <scene sceneID="mn8-LJ-8Wk">
@@ -61,6 +89,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4og-Gg-lv7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="888" y="254"/>
+        </scene>
+        <!--Netflix Register View Controller-->
+        <scene sceneID="HqP-nE-8g1">
+            <objects>
+                <viewController id="0zq-Od-dGQ" customClass="NetflixRegisterViewController" customModule="CodeLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="85b-rJ-a1g">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JXT-Dt-qfo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G5o-PJ-hMk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1623" y="48"/>
+        </scene>
+        <!--Netflix Home View Controller-->
+        <scene sceneID="i9O-hv-Nnv">
+            <objects>
+                <viewController id="IG8-ov-VF1" customClass="NetflixHomeViewController" customModule="CodeLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5bU-qT-o7J">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="uoD-LQ-lFf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hi8-k1-Ndl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888" y="942"/>
         </scene>
         <!--Example1 View Controller-->
         <scene sceneID="bpw-tp-hXP">

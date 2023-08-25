@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import Photos
 
 class Example1ViewController: UIViewController {
+    
+    let picker = UIImagePickerController()
     
     let stackView: UIStackView = {
        let stackView = UIStackView()
@@ -19,10 +22,11 @@ class Example1ViewController: UIViewController {
         return stackView
     }()
     
-    let grayView: UIView = {
-        let view = UIView()
+    let photoImageView: UIImageView = {
+        let view = UIImageView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .lightGray
+        view.backgroundColor = .systemMint
+        view.contentMode = .scaleAspectFill
         
         return view
     }()
@@ -57,12 +61,13 @@ class Example1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        picker.delegate = self
         view.addSubview(stackView)
-        for view in [grayView, titleTextField, dateTextField, textView] {
+        for view in [photoImageView, titleTextField, dateTextField, textView] {
             stackView.addArrangedSubview(view)
         }
         NSLayoutConstraint.activate([
-            grayView.heightAnchor.constraint(equalToConstant: 250),
+            photoImageView.heightAnchor.constraint(equalToConstant: 250),
             
             stackView.topAnchor.constraint(equalTo: view.topAnchor),
             stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
@@ -71,4 +76,13 @@ class Example1ViewController: UIViewController {
         ])
     }
 
+}
+
+extension Example1ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            self.photoImageView.image = image
+            dismiss(animated: true)
+        }
+    }
 }
