@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  LocalizationTest
+
+  Created by JunHwan Kim on 2023/09/11.
+  
+*/
+
+"NSLocationWhenInUseUsageDescription" = "이래서 위치 필요";
+"CFBundleDisplayName" = "Sessac";

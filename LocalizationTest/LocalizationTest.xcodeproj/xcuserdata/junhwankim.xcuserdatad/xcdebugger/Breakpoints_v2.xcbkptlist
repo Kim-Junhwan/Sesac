@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6B8259BF-199A-446A-B960-77E5012ADD69"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47E5B566-F037-4FE4-8EC9-1E1338928F0C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/PhotoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "searchBarTextDidEndEditing(_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "47E5B566-F037-4FE4-8EC9-1E1338928F0C - d7e75f5f82efa9bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewController.searchBarTextDidEndEditing(__C.UISearchBar) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "47E5B566-F037-4FE4-8EC9-1E1338928F0C - d7e75f5f82efa9bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewController.searchBarTextDidEndEditing(__C.UISearchBar) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A884767-A294-42D7-BE42-D103CE98C903"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/PhotoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "searchBarTextDidEndEditing(_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0390553A-0944-451F-B64C-6AD238618AFB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/PhotoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "fetchPhoto(query:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0390553A-0944-451F-B64C-6AD238618AFB - 6464582f291e3c9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewModel.fetchPhoto(query: Swift.String) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/PhotoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "0390553A-0944-451F-B64C-6AD238618AFB - e87ddd5476a3395a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; () in LocalizationTest.PhotoViewModel.fetchPhoto(query: Swift.String) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/PhotoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7EFF255-BB5F-4A97-858D-42F4D8D7A587"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/PhotoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fetchPhoto(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CEDB031-DFF7-4EF6-94D4-D955D5F2D14B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/PhotoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "fetchPhoto(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "021F1C9A-02AA-497D-83CD-22A6D820DAF6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/PhotoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "fetchPhoto(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75C189C4-1135-4394-A349-F5DF15E4ED77"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75C189C4-1135-4394-A349-F5DF15E4ED77 - 4d6df7c451b7ce90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1004">
+               </Location>
+               <Location
+                  uuid = "75C189C4-1135-4394-A349-F5DF15E4ED77 - c44e02b0e6127562"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8D95968-B987-4F6E-888A-101EE856CFFD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6055B2A9-C4E9-433F-B956-447D9D8E8CFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6055B2A9-C4E9-433F-B956-447D9D8E8CFE - 4d6df7c451b7ce90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1004">
+               </Location>
+               <Location
+                  uuid = "6055B2A9-C4E9-433F-B956-447D9D8E8CFE - c44e02b0e6127562"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00386975-A2DD-42D1-A221-526C89822DB6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "600D43B9-C62F-4657-B367-D9FB8B7B5EFD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C02AD93-F889-458D-8258-3B6154A89707"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C02AD93-F889-458D-8258-3B6154A89707 - c44e02b0e6127407"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "6C02AD93-F889-458D-8258-3B6154A89707 - c44e02b0e6127407"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2179CA0A-5F2A-4AF0-931A-AF188EFA6F7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2179CA0A-5F2A-4AF0-931A-AF188EFA6F7F - c44e02b0e6127407"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "2179CA0A-5F2A-4AF0-931A-AF188EFA6F7F - c44e02b0e6127407"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "122CAE6E-5D2C-4C8F-9ECC-4E0AC1B4D954"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "122CAE6E-5D2C-4C8F-9ECC-4E0AC1B4D954 - c44e02b0e6127407"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "122CAE6E-5D2C-4C8F-9ECC-4E0AC1B4D954 - c44e02b0e6127407"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FCCD47A-09E3-48E9-92C4-F3459DA1C461"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AFCC234-389F-4776-BA3C-F6F346CD39A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7985E969-089D-4DA3-8BB2-FF66489D6798"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "556B9794-C77A-4003-BE7F-A7F247D8E27B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5F44CA8-7369-4E9D-BE42-393EB9CA6042"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B21D3D2-DFE7-48D4-949B-421DC5952D1B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8744EB5-2C09-40C9-A9C1-7D93B35F55A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/PhotoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D8744EB5-2C09-40C9-A9C1-7D93B35F55A2 - 2210ee8444c46de9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "D8744EB5-2C09-40C9-A9C1-7D93B35F55A2 - 2210ee8444c46dce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A53626A0-0C25-46D6-BBE3-2B7B65877307"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/PhotoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A53626A0-0C25-46D6-BBE3-2B7B65877307 - 2210ee8444c46dce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "A53626A0-0C25-46D6-BBE3-2B7B65877307 - 2210ee8444c46dce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "792">
+               </Location>
+               <Location
+                  uuid = "A53626A0-0C25-46D6-BBE3-2B7B65877307 - 2210ee8444c46daf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "A53626A0-0C25-46D6-BBE3-2B7B65877307 - 2210ee8444c46daf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "792">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5C16BC0-2A9F-4758-88B9-CCA1D6ADE715"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/PhotoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5C16BC0-2A9F-4758-88B9-CCA1D6ADE715 - 2210ee8444c46daf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "752">
+               </Location>
+               <Location
+                  uuid = "D5C16BC0-2A9F-4758-88B9-CCA1D6ADE715 - 2210ee8444c46d8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.PhotoViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "752">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30B466E1-4F4F-4FCE-858C-6EE74ADCD884"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3AB7966-8AA0-420A-A635-D6F5F2E3CD9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E3AB7966-8AA0-420A-A635-D6F5F2E3CD9B - 4aa1d857117b6b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "E3AB7966-8AA0-420A-A635-D6F5F2E3CD9B - 4aa1d857117b6b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "E3AB7966-8AA0-420A-A635-D6F5F2E3CD9B - 4aa1d857117b6b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF13A86A-D881-4E95-8155-B609D1385A27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DF13A86A-D881-4E95-8155-B609D1385A27 - 4aa1d857117b6b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "DF13A86A-D881-4E95-8155-B609D1385A27 - 4aa1d857117b6b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "DF13A86A-D881-4E95-8155-B609D1385A27 - 4aa1d857117b6b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "041AD0B4-CDCF-4564-8FEA-56AC985EBEFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E551F2EA-1F06-430A-BCEE-F00613048AEA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E551F2EA-1F06-430A-BCEE-F00613048AEA - 4aa1d857117b6b91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1004">
+               </Location>
+               <Location
+                  uuid = "E551F2EA-1F06-430A-BCEE-F00613048AEA - c3822d23a6ded06d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83553B1B-21E9-478E-B863-68CF7AF21D39"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "83553B1B-21E9-478E-B863-68CF7AF21D39 - 4aa1d857117b6b91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1004">
+               </Location>
+               <Location
+                  uuid = "83553B1B-21E9-478E-B863-68CF7AF21D39 - c3822d23a6ded06d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LocalizationTest.APIService.searchPhoto(query: Swift.String, completion: (Swift.Optional&lt;LocalizationTest.Photo&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/Photo/Photo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D4E2943-2C45-4EF2-AFF4-C0AE609BBCA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE19336A-E16B-43C3-A726-6FF24A52E408"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36DEA57B-2DAB-4EE8-A73E-A4F5971313C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/Photo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "searchPhoto(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5512840E-4CCA-4FA3-B9CB-E689053ADD06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/Photo/PhotoTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "configureCell(photo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "242C7AE2-7D8D-4410-88E8-B83FFD224597"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "242C7AE2-7D8D-4410-88E8-B83FFD224597 - 24839790364a33e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIImageView.setImageFromImagePath(imagePath: Swift.String) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/UIImageView+.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "242C7AE2-7D8D-4410-88E8-B83FFD224597 - 24839790364a33e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIImageView.setImageFromImagePath(imagePath: Swift.String) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/UIImageView+.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "724">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4EA1C6F-9A87-4C45-A745-E0B6271A0B71"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4EA1C6F-9A87-4C45-A745-E0B6271A0B71 - 24839790364a33c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIImageView.setImageFromImagePath(imagePath: Swift.String) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/UIImageView+.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "A4EA1C6F-9A87-4C45-A745-E0B6271A0B71 - 780a2b68f2fa30cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIImageView.setImageFromImagePath(imagePath: Swift.String) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/UIImageView+.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FAC4F65-3B62-4267-8466-3A3A3CA75B1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "530CE44D-03C0-4D75-BBAA-1A4EAA565D25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "680325F4-3B1C-4778-8999-D83D6FC60C79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9857BA5A-4944-4E53-830E-896B811FA87C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5377C60-1B77-4620-BEC4-30957D9878F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94338765-2E93-400E-B23C-4BF7FE8E55BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34D4C66A-A657-4E8C-B477-FB8FC8D81D45"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA1DE3FC-76BB-4E55-B8BD-05FC9C9F3934"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EF56106-2753-4C57-ACC5-1BC9EB686F60"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "156AA76C-D43C-4EB2-BF24-B7817F14E7A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C9CD7AF-396D-4DE8-82CC-6256A446846A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB97DE16-78BF-47FD-87F6-161663CF1E7C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB97DE16-78BF-47FD-87F6-161663CF1E7C - 780a2b68f2fa32b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIImageView.setImageFromImagePath(imagePath: Swift.String) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/UIImageView+.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1732">
+               </Location>
+               <Location
+                  uuid = "EB97DE16-78BF-47FD-87F6-161663CF1E7C - 636f05fa786abe22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIImageView.setImageFromImagePath(imagePath: Swift.String) -&gt; ()"
+                  moduleName = "LocalizationTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junhwankim/Desktop/Sesac/LocalizationTest/LocalizationTest/UIImageView+.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CB49815-B564-404E-8E54-FF0928C7CE95"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalizationTest/UIImageView+.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "setImageFromImagePath(imagePath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

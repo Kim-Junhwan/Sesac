@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "7fY-h7-bFC"; */
+"7fY-h7-bFC.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7fY-h7-bFC"; */
+"7fY-h7-bFC.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "M5m-yb-sP1"; */
+"M5m-yb-sP1.title" = "Item";
+
+/* Class = "UILabel"; text = "로그인 여부 확인"; ObjectID = "Qmd-4W-BID"; */
+"Qmd-4W-BID.text" = "로그인 여부 확인";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "ZiU-Yk-Esq"; */
+"ZiU-Yk-Esq.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "로그인"; ObjectID = "gwb-KY-evY"; */
+"gwb-KY-evY.title" = "로그인";
