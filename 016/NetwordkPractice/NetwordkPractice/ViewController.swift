@@ -13,39 +13,26 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var lottoRoundTextField: UITextField!
     let pickerView: UIPickerView = UIPickerView()
-    let lottoRoundList: [Int] = Array(1...1079).reversed()
-    
     @IBOutlet weak var lottoNumLabel: UILabel!
+    let viewModel = LottoViewModel()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         lottoRoundTextField.inputView = pickerView
         pickerView.delegate = self
         pickerView.dataSource = self
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(endEditing)))
-        fetchLottoNumber(round: 1079)
+        viewModel.lotto.subscribe { lotto in
+            self.lottoNumLabel.text = lotto
+        }
     }
     
     @objc func endEditing() {
         view.endEditing(true)
     }
     
-    func getLottoNumber(round: Int) {
-        let url = "https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=\(round)"
-        AF.request(url, method: .get).validate().response { response in
-            switch response.result {
-            case .success(let value):
-                let json = JSON(value)
-                var lottoNum: [String] = []
-                for num in 1...6 {
-                    lottoNum.append(json["drwtNo\(num)"].stringValue)
-                }
-                lottoNum.append("+\(json["bnusNo"].stringValue)")
-                self.lottoNumLabel.text = lottoNum.joined(separator: " ")
-            case .failure(let error):
-                print(error)
-            }
-        }
-    }
+    
 }
 
 extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
@@ -54,16 +41,16 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        lottoRoundList.count
+        viewModel.lottoRoundList.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return String(lottoRoundList[row])
+        return String(viewModel.lottoRoundList[row])
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        lottoRoundTextField.text = String(lottoRoundList[row])
-        fetchLottoNumber(round: lottoRoundList[row])
+        viewModel.fetchLottoNum(indexRow: row)
+        lottoRoundTextField.text = String(viewModel.lottoRoundList[row])
     }
     
 }
