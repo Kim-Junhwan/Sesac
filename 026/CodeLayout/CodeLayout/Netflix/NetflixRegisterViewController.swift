@@ -82,6 +82,8 @@ class NetflixRegisterViewController: UIViewController {
         
         return toggleSwitch
     }()
+    
+    let viewModel = NetflixViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -89,6 +91,39 @@ class NetflixRegisterViewController: UIViewController {
         setRegisterView()
         setLogo()
         setSwitch()
+        bind()
+    }
+    
+    @objc func emailTextFieldBind() {
+        viewModel.email.value = emailTextField.text!
+    }
+    
+    @objc func passwordTextFieldBind() {
+        viewModel.passWord.value = passwordTextField.text!
+    }
+    
+    func bind() {
+        emailTextField.addTarget(self, action: #selector(emailTextFieldBind), for: .editingChanged)
+        passwordTextField.addTarget(self, action: #selector(passwordTextFieldBind), for: .editingChanged)
+        viewModel.validEmail.subscribe { isValid in
+            if !isValid {
+                self.emailTextField.layer.borderWidth = 2
+                self.emailTextField.layer.borderColor = UIColor.red.cgColor
+            } else {
+                self.emailTextField.layer.borderColor = UIColor.green.cgColor
+            }
+        }
+        viewModel.validPassword.subscribe { isValid in
+            if !isValid {
+                self.passwordTextField.layer.borderWidth = 2
+                self.passwordTextField.layer.borderColor = UIColor.red.cgColor
+            } else {
+                self.passwordTextField.layer.borderColor = UIColor.green.cgColor
+            }
+        }
+        viewModel.validRegister.subscribe { isRegister in
+            self.registerButton.isEnabled = isRegister
+        }
     }
     
     func setLogo() {

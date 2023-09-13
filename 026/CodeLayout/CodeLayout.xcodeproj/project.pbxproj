@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C71B677C2AB1582300F31616 /* NetflixViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B677B2AB1582300F31616 /* NetflixViewModel.swift */; };
+		C71B67812AB191B400F31616 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B67802AB191B400F31616 /* Observable.swift */; };
 		C72F2A562A94CA8C009BE133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F2A552A94CA8C009BE133 /* AppDelegate.swift */; };
 		C72F2A582A94CA8C009BE133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F2A572A94CA8C009BE133 /* SceneDelegate.swift */; };
 		C72F2A5A2A94CA8C009BE133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72F2A592A94CA8C009BE133 /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C71B677B2AB1582300F31616 /* NetflixViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixViewModel.swift; sourceTree = "<group>"; };
+		C71B67802AB191B400F31616 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		C72F2A522A94CA8C009BE133 /* CodeLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72F2A552A94CA8C009BE133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C72F2A572A94CA8C009BE133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 				C72F2A602A94CA8D009BE133 /* LaunchScreen.storyboard */,
 				C72F2A632A94CA8D009BE133 /* Info.plist */,
 				C72F2A912A9851D1009BE133 /* CustomPageViewController.swift */,
+				C71B67802AB191B400F31616 /* Observable.swift */,
 			);
 			path = CodeLayout;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				C72F2A8A2A979162009BE133 /* UI */,
 				C72F2A882A979156009BE133 /* NetflixHomeViewController.swift */,
 				C72F2A932A98E8C6009BE133 /* NetflixRegisterViewController.swift */,
+				C71B677B2AB1582300F31616 /* NetflixViewModel.swift */,
 			);
 			path = Netflix;
 			sourceTree = "<group>";
@@ -247,8 +253,10 @@
 				C72F2A962A98E8D7009BE133 /* DefaultTextField.swift in Sources */,
 				C72F2A582A94CA8C009BE133 /* SceneDelegate.swift in Sources */,
 				C72F2A8C2A979180009BE133 /* DefaultLabel.swift in Sources */,
+				C71B67812AB191B400F31616 /* Observable.swift in Sources */,
 				C72F2A8E2A97980C009BE133 /* DefaultImageView.swift in Sources */,
 				C72F2A6B2A94CE74009BE133 /* Example1ViewController.swift in Sources */,
+				C71B677C2AB1582300F31616 /* NetflixViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
