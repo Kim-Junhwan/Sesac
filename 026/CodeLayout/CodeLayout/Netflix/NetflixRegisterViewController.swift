@@ -31,10 +31,28 @@ class NetflixRegisterViewController: UIViewController {
         return textField
     }()
     
+    let emailErrorLabel: UILabel = {
+       let label = UILabel()
+        label.textColor = .red
+        label.textAlignment = .right
+        label.text = "이메일에는 \"@\"가 포함되어있어야 합니다."
+        label.isHidden = true
+        return label
+    }()
+    
     let passwordTextField: DefaultTextField = {
        let textField = DefaultTextField()
         textField.config(placeHolderTitle: "비밀번호")
         return textField
+    }()
+    
+    let passwordErrorLabel: UILabel = {
+       let label = UILabel()
+        label.textColor = .red
+        label.textAlignment = .right
+        label.text = "비밀번호는 6~10자리 사이로 입력해야합니다."
+        label.isHidden = true
+        return label
     }()
     
     let nicknameTextField: DefaultTextField = {
@@ -53,6 +71,15 @@ class NetflixRegisterViewController: UIViewController {
        let textField = DefaultTextField()
         textField.config(placeHolderTitle: "추천 코드 입력")
         return textField
+    }()
+    
+    let recommendErrorLabel: UILabel = {
+       let label = UILabel()
+        label.textColor = .red
+        label.textAlignment = .right
+        label.text = "추천인 코드는 숫자로 6자리입니다."
+        label.isHidden = true
+        return label
     }()
     
     let registerButton: DefaultButton = {
@@ -102,28 +129,57 @@ class NetflixRegisterViewController: UIViewController {
         viewModel.passWord.value = passwordTextField.text!
     }
     
+    @objc func recommendTextFieldBind() {
+        viewModel.recomendedCode.value = recommendTextField.text!
+    }
+    
     func bind() {
         emailTextField.addTarget(self, action: #selector(emailTextFieldBind), for: .editingChanged)
         passwordTextField.addTarget(self, action: #selector(passwordTextFieldBind), for: .editingChanged)
+        recommendTextField.addTarget(self, action: #selector(recommendTextFieldBind), for: .editingChanged)
         viewModel.validEmail.subscribe { isValid in
-            if !isValid {
-                self.emailTextField.layer.borderWidth = 2
-                self.emailTextField.layer.borderColor = UIColor.red.cgColor
-            } else {
-                self.emailTextField.layer.borderColor = UIColor.green.cgColor
-            }
+            self.setTextFieldBorder(view: self.emailTextField, isValid)
+            self.setErrorValidLabel(errorLabel: self.emailErrorLabel, isValid: isValid)
         }
         viewModel.validPassword.subscribe { isValid in
-            if !isValid {
-                self.passwordTextField.layer.borderWidth = 2
-                self.passwordTextField.layer.borderColor = UIColor.red.cgColor
-            } else {
-                self.passwordTextField.layer.borderColor = UIColor.green.cgColor
-            }
+            self.setTextFieldBorder(view: self.passwordTextField, isValid)
+            self.setErrorValidLabel(errorLabel: self.passwordErrorLabel, isValid: isValid)
+        }
+        viewModel.validRecomended.subscribe { isValid in
+            self.setTextFieldBorder(view: self.recommendTextField, isValid)
+            self.setErrorValidLabel(errorLabel: self.recommendErrorLabel, isValid: isValid)
         }
         viewModel.validRegister.subscribe { isRegister in
             self.registerButton.isEnabled = isRegister
         }
+    }
+    
+    func setErrorValidLabel(errorLabel: UILabel ,isValid: Bool) {
+        if isValid {
+            errorLabel.isHidden = true
+        } else {
+            errorLabel.isHidden = false
+        }
+        
+    }
+    
+    func getsubViewIndex(view: UIView) -> Int? {
+        for item in mainStackView.arrangedSubviews.enumerated() {
+            if view.isEqual(item.element) {
+                return item.offset
+            }
+        }
+        return nil
+    }
+    
+    func setTextFieldBorder(view: UIView ,_ isValid: Bool) {
+        view.layer.borderWidth = 2
+        if isValid {
+            view.layer.borderColor = UIColor.green.cgColor
+            return
+        }
+        view.layer.borderColor = UIColor.red.cgColor
+        return
     }
     
     func setLogo() {
@@ -136,7 +192,7 @@ class NetflixRegisterViewController: UIViewController {
     
     func setRegisterView() {
         view.addSubview(mainStackView)
-        for subview in [emailTextField, passwordTextField, nicknameTextField, locationTextField, recommendTextField] {
+        for subview in [emailTextField, emailErrorLabel, passwordTextField, passwordErrorLabel, nicknameTextField, locationTextField, recommendTextField, recommendErrorLabel] {
             mainStackView.addArrangedSubview(subview)
             subview.snp.makeConstraints { make in
                 make.height.equalTo(35)
