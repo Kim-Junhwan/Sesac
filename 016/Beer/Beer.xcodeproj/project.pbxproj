@@ -20,6 +20,8 @@
 		C75D41882A8281CB0096EF02 /* BeerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C75D41862A8281CB0096EF02 /* BeerTableViewCell.xib */; };
 		C75D418A2A82828C0096EF02 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D41892A82828C0096EF02 /* UIImageView+.swift */; };
 		C75D418C2A8289D10096EF02 /* RecommendBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D418B2A8289D10096EF02 /* RecommendBeerViewController.swift */; };
+		C7D152282ABABE770064D59F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D152272ABABE770064D59F /* NetworkService.swift */; };
+		C7D1522A2ABABF3A0064D59F /* BeerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D152292ABABF3A0064D59F /* BeerAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		C75D41862A8281CB0096EF02 /* BeerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerTableViewCell.xib; sourceTree = "<group>"; };
 		C75D41892A82828C0096EF02 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
 		C75D418B2A8289D10096EF02 /* RecommendBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendBeerViewController.swift; sourceTree = "<group>"; };
+		C7D152272ABABE770064D59F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C7D152292ABABF3A0064D59F /* BeerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		C75D41682A824F9C0096EF02 /* Beer */ = {
 			isa = PBXGroup;
 			children = (
+				C7D152242ABAB6260064D59F /* Network */,
 				C75D41692A824F9C0096EF02 /* AppDelegate.swift */,
 				C75D416B2A824F9C0096EF02 /* SceneDelegate.swift */,
 				C75D416D2A824F9C0096EF02 /* ViewController.swift */,
@@ -84,6 +89,15 @@
 				C75D41892A82828C0096EF02 /* UIImageView+.swift */,
 			);
 			path = Beer;
+			sourceTree = "<group>";
+		};
+		C7D152242ABAB6260064D59F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C7D152272ABABE770064D59F /* NetworkService.swift */,
+				C7D152292ABABF3A0064D59F /* BeerAPI.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,7 +183,9 @@
 				C75D418A2A82828C0096EF02 /* UIImageView+.swift in Sources */,
 				C75D416E2A824F9C0096EF02 /* ViewController.swift in Sources */,
 				C75D416A2A824F9C0096EF02 /* AppDelegate.swift in Sources */,
+				C7D152282ABABE770064D59F /* NetworkService.swift in Sources */,
 				C75D416C2A824F9C0096EF02 /* SceneDelegate.swift in Sources */,
+				C7D1522A2ABABF3A0064D59F /* BeerAPI.swift in Sources */,
 				C75D418C2A8289D10096EF02 /* RecommendBeerViewController.swift in Sources */,
 				C75D417E2A827C3D0096EF02 /* Beer.swift in Sources */,
 				C75D41872A8281CB0096EF02 /* BeerTableViewCell.swift in Sources */,

@@ -25,19 +25,13 @@ class ViewController: UIViewController {
     }
     
     func fetchBeerList() {
-        let url = "https://api.punkapi.com/v2/beers?page=1&per_page=10"
-        AF.request(url, method: .get).validate().response { response in
-            switch response.result {
-            case .success(let value):
-                let json = JSON(value)
-                let name = json.arrayValue.map { $0["name"].stringValue }
-                let imageUrl = json.arrayValue.map { $0["image_url"].stringValue }
-                for num in 0..<name.count {
-                    self.beerList.append(Beer(name: name[num], image_url: imageUrl[num]))
-                    self.tableView.reloadData()
-                }
-            case .failure(let error):
-                print(error)
+        NetworkService.shared.request(endpoint: BeerAPI.getBeerList, responseType: [Beer].self) { result in
+            switch result {
+            case .success(let success):
+                self.beerList = success
+                self.tableView.reloadData()
+            case .failure(let failure):
+                print(failure)
             }
         }
     }

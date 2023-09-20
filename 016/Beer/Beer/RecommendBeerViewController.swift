@@ -25,17 +25,16 @@ class RecommendBeerViewController: UIViewController {
     }
     
     func getRecommendBeer() {
-        let url = "https://api.punkapi.com/v2/beers/random"
-            AF.request(url, method: .get).response { response in
-                switch response.result {
-                case .success(let value):
-                    let json = JSON(value).arrayValue[0]
-                    self.beerLabel.text = json["name"].stringValue
-                    self.beerImage.getImageFromUrl(url: json["image_url"].stringValue)
-                    self.beerDiscusstionLabel.text = json["description"].stringValue
-                case .failure(let error):
-                    print(error)
-                }
+        NetworkService.shared.request(endpoint: BeerAPI.getRandomBeer, responseType: [Beer].self) { result in
+            switch result {
+            case .success(let success):
+                let success = success.first!
+                self.beerImage.getImageFromUrl(url: success.image_url)
+                self.beerLabel.text = success.name
+                self.beerDiscusstionLabel.text = success.description
+            case .failure(let failure):
+                print(failure)
             }
+        }
     }
 }
