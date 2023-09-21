@@ -22,6 +22,9 @@
 		C75D418C2A8289D10096EF02 /* RecommendBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D418B2A8289D10096EF02 /* RecommendBeerViewController.swift */; };
 		C7D152282ABABE770064D59F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D152272ABABE770064D59F /* NetworkService.swift */; };
 		C7D1522A2ABABF3A0064D59F /* BeerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D152292ABABF3A0064D59F /* BeerAPI.swift */; };
+		C7D152302ABAF8EA0064D59F /* RecommendBeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D1522F2ABAF8EA0064D59F /* RecommendBeerViewModel.swift */; };
+		C7D152322ABAFCB90064D59F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D152312ABAFCB90064D59F /* Observable.swift */; };
+		C7D152342ABBBC530064D59F /* BeerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D152332ABBBC530064D59F /* BeerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		C75D418B2A8289D10096EF02 /* RecommendBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendBeerViewController.swift; sourceTree = "<group>"; };
 		C7D152272ABABE770064D59F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		C7D152292ABABF3A0064D59F /* BeerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerAPI.swift; sourceTree = "<group>"; };
+		C7D1522F2ABAF8EA0064D59F /* RecommendBeerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendBeerViewModel.swift; sourceTree = "<group>"; };
+		C7D152312ABAFCB90064D59F /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		C7D152332ABBBC530064D59F /* BeerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,18 +80,16 @@
 		C75D41682A824F9C0096EF02 /* Beer */ = {
 			isa = PBXGroup;
 			children = (
+				C7D1522E2ABAF8140064D59F /* BeerList */,
+				C7D1522D2ABAF7690064D59F /* RecommendBeer */,
 				C7D152242ABAB6260064D59F /* Network */,
 				C75D41692A824F9C0096EF02 /* AppDelegate.swift */,
 				C75D416B2A824F9C0096EF02 /* SceneDelegate.swift */,
-				C75D416D2A824F9C0096EF02 /* ViewController.swift */,
+				C7D152312ABAFCB90064D59F /* Observable.swift */,
 				C75D416F2A824F9C0096EF02 /* Main.storyboard */,
-				C75D418B2A8289D10096EF02 /* RecommendBeerViewController.swift */,
 				C75D41722A824F9D0096EF02 /* Assets.xcassets */,
 				C75D41742A824F9D0096EF02 /* LaunchScreen.storyboard */,
 				C75D41772A824F9D0096EF02 /* Info.plist */,
-				C75D417D2A827C3D0096EF02 /* Beer.swift */,
-				C75D41852A8281CB0096EF02 /* BeerTableViewCell.swift */,
-				C75D41862A8281CB0096EF02 /* BeerTableViewCell.xib */,
 				C75D41892A82828C0096EF02 /* UIImageView+.swift */,
 			);
 			path = Beer;
@@ -94,10 +98,31 @@
 		C7D152242ABAB6260064D59F /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				C75D417D2A827C3D0096EF02 /* Beer.swift */,
 				C7D152272ABABE770064D59F /* NetworkService.swift */,
 				C7D152292ABABF3A0064D59F /* BeerAPI.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		C7D1522D2ABAF7690064D59F /* RecommendBeer */ = {
+			isa = PBXGroup;
+			children = (
+				C75D418B2A8289D10096EF02 /* RecommendBeerViewController.swift */,
+				C7D1522F2ABAF8EA0064D59F /* RecommendBeerViewModel.swift */,
+			);
+			path = RecommendBeer;
+			sourceTree = "<group>";
+		};
+		C7D1522E2ABAF8140064D59F /* BeerList */ = {
+			isa = PBXGroup;
+			children = (
+				C75D41852A8281CB0096EF02 /* BeerTableViewCell.swift */,
+				C75D41862A8281CB0096EF02 /* BeerTableViewCell.xib */,
+				C75D416D2A824F9C0096EF02 /* ViewController.swift */,
+				C7D152332ABBBC530064D59F /* BeerListViewModel.swift */,
+			);
+			path = BeerList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D152322ABAFCB90064D59F /* Observable.swift in Sources */,
 				C75D418A2A82828C0096EF02 /* UIImageView+.swift in Sources */,
 				C75D416E2A824F9C0096EF02 /* ViewController.swift in Sources */,
 				C75D416A2A824F9C0096EF02 /* AppDelegate.swift in Sources */,
+				C7D152342ABBBC530064D59F /* BeerListViewModel.swift in Sources */,
+				C7D152302ABAF8EA0064D59F /* RecommendBeerViewModel.swift in Sources */,
 				C7D152282ABABE770064D59F /* NetworkService.swift in Sources */,
 				C75D416C2A824F9C0096EF02 /* SceneDelegate.swift in Sources */,
 				C7D1522A2ABABF3A0064D59F /* BeerAPI.swift in Sources */,

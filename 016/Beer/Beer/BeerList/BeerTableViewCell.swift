@@ -16,7 +16,7 @@ class BeerTableViewCell: UITableViewCell {
     
     func configureCell(beer: Beer) {
         beerNameLabel.text = beer.name
-        beerImageView.getImageFromUrl(url: beer.image_url)
+        beerImageView.getImageFromUrl(url: beer.image_url!)
     }
     
     override func awakeFromNib() {

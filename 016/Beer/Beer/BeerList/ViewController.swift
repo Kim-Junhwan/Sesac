@@ -6,14 +6,11 @@
 //
 
 import UIKit
-import Alamofire
-import SwiftyJSON
 
 class ViewController: UIViewController {
-    
-    var beerList: [Beer] = []
 
     @IBOutlet weak var tableView: UITableView!
+    let viewModel: BeerListViewModel = BeerListViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,30 +18,26 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.register(UINib(nibName: BeerTableViewCell.identifier, bundle: nil), forCellReuseIdentifier: BeerTableViewCell.identifier)
         tableView.rowHeight = 110
-        fetchBeerList()
+        bind()
+        viewModel.fetchBeerList()
     }
     
-    func fetchBeerList() {
-        NetworkService.shared.request(endpoint: BeerAPI.getBeerList, responseType: [Beer].self) { result in
-            switch result {
-            case .success(let success):
-                self.beerList = success
-                self.tableView.reloadData()
-            case .failure(let failure):
-                print(failure)
-            }
+    func bind() {
+        viewModel.beerList.subscribe { _ in
+            self.tableView.reloadData()
         }
     }
+    
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return beerList.count
+        return viewModel.beerList.value.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: BeerTableViewCell.identifier) as? BeerTableViewCell else { return UITableViewCell() }
-        cell.configureCell(beer: beerList[indexPath.row])
+        cell.configureCell(beer: viewModel.beerList.value[indexPath.row])
         return cell
     }
     
